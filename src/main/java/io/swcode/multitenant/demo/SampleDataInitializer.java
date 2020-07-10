@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 @AllArgsConstructor
-public class ApplicationReadyListener {
+public class SampleDataInitializer {
 
     private final UserRepository userRepository;
 
