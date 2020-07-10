@@ -13,10 +13,10 @@ repositories {
 }
 
 dependencies {
+	annotationProcessor group: 'org.springframework.boot', name: 'spring-boot-configuration-processor'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.boot:spring-boot-starter-data-rest'
 	implementation 'org.springframework.boot:spring-boot-starter-data-mongodb'
-	implementation 'de.flapdoodle.embed:de.flapdoodle.embed.mongo'
 
 	compileOnly "org.projectlombok:lombok"
 	annotationProcessor "org.projectlombok:lombok"
